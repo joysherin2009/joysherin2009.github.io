@@ -1,1 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Joy Sherin - Educational Page</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to bottom right, #0f2027, #203a43, #2c5364);
+      color: white;
+      line-height: 1.6;
+    }
+    header {
+      background: rgba(0, 0, 0, 0.6);
+      padding: 1rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+    }
+    header h1 {
+      font-size: 1.5rem;
+      margin: 0;
+    }
+    nav a {
+      color: #fff;
+      margin: 0 10px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    section {
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    .images {
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+      margin-top: 1rem;
+    }
+    .images img {
+      width: 200px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    }
+    iframe {
+      display: block;
+      margin: 2rem auto;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Joy Sherin</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#unit1">Unit 1</a>
+      <a href="#unit2">Unit 2</a>
+      <a href="#media">Media</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hello! My name is Joy Sherin. I am a sophomore who likes <strong>art</strong> and <strong>badminton</strong>. 
+    After high school, I want to go on a vacation with my friends.  
+    This page also explores concepts from <strong>Unit 1: Data</strong> and <strong>Unit 2: Computer Systems and Networks</strong>.</p>
+  </section>
+
+  <section id="unit1">
+    <h2>Unit 1: Data</h2>
+    <p>Data in computing is made of <strong>bits</strong> (0s and 1s) grouped into <strong>bytes</strong>. 
+    Sometimes, when we don’t have enough bits, we get <strong>roundoff</strong> errors. 
+    <strong>Analog data</strong> changes smoothly, while digital data is stored in bits.  
+    Data can be compressed <strong>losslessly</strong> (no information lost) or <strong>lossily</strong> (some information lost). 
+    We also use <strong>metadata</strong> to describe data about data.</p>
+
+    <div class="images">
+      <img src="https://cdn-icons-png.flaticon.com/512/2744/2744377.png" alt="Data Icon">
+    </div>
+  </section>
+
+  <section id="unit2">
+    <h2>Unit 2: Computer Systems and Networks</h2>
+    <p>A <strong>computing device</strong> connects to a <strong>computer network</strong> using agreed-upon <strong>protocols</strong>.  
+    The internet works by splitting messages into <strong>packets</strong> that travel along different <strong>paths</strong>, guided by <strong>routers</strong>.  
+    With <strong>redundancy</strong> and <strong>fault tolerance</strong>, the system continues working even if some parts fail.  
+    The <strong>Domain Name System (DNS)</strong> translates human-readable names into <strong>IP addresses</strong>.  
+    Finally, the <strong>World Wide Web</strong> uses <strong>HTTP</strong> to link pages and media together.</p>
+
+    <div class="images">
+      <img src="https://cdn-icons-png.flaticon.com/512/2920/2920277.png" alt="Network Icon">
+    </div>
+  </section>
+
+  <section id="media">
+    <h2>Learn More: How the Internet Works</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Dxcc6ycZ73M" 
+      title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+  </section>
+
+</body>
+</html>
 
